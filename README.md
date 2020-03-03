@@ -1,2 +1,13 @@
-# seed-rs_quick_reference
-A quick reference to the Seed web framework
+# Seed rs Quick Reference
+
+# Debugging
+## Logging to the console
+ - the `log!` macro, can take multiple arguments
+```rust
+log!("hello", 5);
+```
+will log to the browser's console:
+```
+"hello"
+5
+```
