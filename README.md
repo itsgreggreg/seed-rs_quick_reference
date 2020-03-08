@@ -1,5 +1,15 @@
 # Seed rs Quick Reference
 
+# Views
+
+## Building Html
+
+ - `node![]` turns a list of nodes into a node without a wrapping dom element.
+   - https://docs.rs/seed/0.6.0/seed/macro.nodes.html
+ 
+ - `map_msg[]`
+   - https://docs.rs/seed/0.6.0/seed/virtual_dom/node/el/struct.El.html#method.map_msg
+
 # Debugging
 ## Logging to the console
  - the `log!` macro, can take multiple arguments
